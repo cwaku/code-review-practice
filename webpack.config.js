@@ -30,11 +30,3 @@ module.exports = {
     ],
   },
 };
-
-const productionConfig = merge([
-  {
-    output: {
-      publicPath: '/to-do-list/',
-    },
-  },
-]);
